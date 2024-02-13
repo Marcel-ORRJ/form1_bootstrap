@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Formulário Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid text-center text-uppercase">
+            <h1>Formulário Bootstrap</h1>
+        </div>
+    </header>
+    <div id="conteudo" class="container-fluid">
+        <div class="alert alert-primary alert-dismissible text-center">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <h5>EBAC Desenvolvedor Full Stack Python - Fundamentos Bootstrap</h5>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="form-label" for="nome">Nome:</label>
+                        <input id="nome" name="nome" class="form-control" type="text" maxlength="32"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input id="email" name="email" type="email" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone" class="form-label">Telefone:</label>
+                        <input id="telefone" name="telefone" type="tel" class="form-control" />
+                    </div>
+                    <div class="form-check form-switch">
+                        <label for="aceito-termos" class="form-check-label">Li e concordo com os termos do site</label>
+                        <input type="checkbox" id="aceito-termos" name="aceitoTermos" class="form-check-input" />
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid text-center">
+            <h5>Atividade prática desenvolvida por: Marcelo Roberto Rosa Junior</h5>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

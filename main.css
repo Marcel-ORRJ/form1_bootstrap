@@ -1,0 +1,25 @@
+header, footer {
+    background-color: #9ec5fe;
+    color: #052c65;
+    padding: 2vh 0;
+}
+
+header {
+    margin-bottom: 1vh;
+}
+
+footer {
+    margin-top: 1vh;
+}
+
+.form-group, .form-check {
+    margin-bottom: 3vh;
+}
+
+body {
+    font-size: 3vh;
+}
+
+button {
+    width: 20vw;
+}
